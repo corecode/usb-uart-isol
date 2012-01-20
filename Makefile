@@ -4,6 +4,7 @@ PNGS=		${SOURCES:.ps=.png}
 PNG_PREVIEWS=	${PNGS:.png=-small.png}
 BOARD=		$(wildcard *.brd)
 GERBERS=	$(wildcard *.g[bt][ls] *.gbr *.drl)
+LICENSE_FILES=	LICENSE LICENSE.HOWTO README.md
 
 all: clean png png_preview
 
@@ -40,7 +41,7 @@ FAB_BRANCH=	fab
 FAB_INDEX=	.git/fab-index
 e=	GIT_INDEX_FILE=${FAB_INDEX}
 
-ci-fab: ${GERBERS} ${PDFS} ${PNGS} ${PNG_PREVIEWS}
+ci-fab: ${GERBERS} ${PDFS} ${PNGS} ${PNG_PREVIEWS} ${LICENSE_FILES}
 	@if ! git diff --quiet HEAD; then \
 		echo "tree is dirty.  please commit first." >&2; \
 		exit 1; \
@@ -55,3 +56,5 @@ ci-fab: ${GERBERS} ${PDFS} ${PNGS} ${PNG_PREVIEWS}
 	git update-ref refs/heads/${FAB_BRANCH} \
 		$$((printf "fab outputs from "; git log --pretty=oneline --abbrev-commit -n1) | \
 		$e git commit-tree $$($e git write-tree) -p ${FAB_BRANCH} -p HEAD)
+
+.PHONY: ci-fab
