@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "USB UART isolated"
 Date "4 dec 2011"
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1"
+Comp "(c) 2011,2012 Simon Schubert <2@0x2c.org>"
+Comment1 "CERN OHL v.1.1 or later"
 Comment2 ""
 Comment3 ""
 Comment4 ""

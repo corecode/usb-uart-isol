@@ -20,11 +20,11 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11700 8267
-Title ""
-Date "4 dec 2011"
-Rev ""
-Comp ""
-Comment1 ""
+Title "USB UART isolated"
+Date "20 jan 2012"
+Rev "1"
+Comp "(c) 2011,2012 Simon Schubert <2@0x2c.org>"
+Comment1 "CERN OHL v.1.1 or later"
 Comment2 ""
 Comment3 ""
 Comment4 ""
