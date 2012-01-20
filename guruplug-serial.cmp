@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08)-stable date = Sun 04 Dec 2011 03:38:56 PM CET
+
+BeginCmp
+TimeStamp = /4EDB6C38;
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6F17;
+Reference = C2;
+ValeurCmp = 0.47u;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6D96;
+Reference = C3;
+ValeurCmp = 18p;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6D92;
+Reference = C4;
+ValeurCmp = 18p;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB76D5;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB783C;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB784B;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB7848;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6678;
+Reference = P1;
+ValeurCmp = SERIAL;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6990;
+Reference = P2;
+ValeurCmp = USB;
+IdModule  = USB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB7748;
+Reference = P3;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB834C;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB8355;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB8358;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB835A;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB77E8;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB783B;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB784A;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB7849;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6F0A;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB74D2;
+Reference = U1;
+ValeurCmp = SI8421;
+IdModule  = SOIC8-NARROW;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB697D;
+Reference = U2;
+ValeurCmp = MCP2200;
+IdModule  = SOIC20;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EDB6D78;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe

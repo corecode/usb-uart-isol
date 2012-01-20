@@ -1,0 +1,324 @@
+# EESchema Netlist Version 1.1 created  Sun 04 Dec 2011 04:14:23 PM CET
+(
+ ( /4EDB835A 1pin  P7 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4EDB8358 1pin  P6 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4EDB8355 1pin  P5 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4EDB834C 1pin  P4 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /4EDB784B LED-0805  D3 LED {Lib=LED}
+  (    1 N-000029 )
+  (    2 /GP6 )
+ )
+ ( /4EDB784A SM0805  R3 1k {Lib=R}
+  (    1 N-000029 )
+  (    2 +5V )
+ )
+ ( /4EDB7849 SM0805  R4 1k {Lib=R}
+  (    1 N-000030 )
+  (    2 +5V )
+ )
+ ( /4EDB7848 LED-0805  D4 LED {Lib=LED}
+  (    1 N-000030 )
+  (    2 /GP7 )
+ )
+ ( /4EDB783C LED-0805  D2 LED {Lib=LED}
+  (    1 N-000031 )
+  (    2 /GP1 )
+ )
+ ( /4EDB783B SM0805  R2 1k {Lib=R}
+  (    1 N-000031 )
+  (    2 +5V )
+ )
+ ( /4EDB77E8 SM0805  R1 1k {Lib=R}
+  (    1 N-000001 )
+  (    2 +5V )
+ )
+ ( /4EDB7748 PIN_ARRAY_5x2  P3 CONN_5X2 {Lib=CONN_5X2}
+  (    1 +5V )
+  (    2 /GP3 )
+  (    3 /GP4 )
+  (    4 /GP5 )
+  (    5 /GP6 )
+  (    6 /GP7 )
+  (    7 /GP2 )
+  (    8 /GP1 )
+  (    9 /GP0 )
+  (   10 GND )
+ )
+ ( /4EDB76D5 LED-0805  D1 LED {Lib=LED}
+  (    1 N-000001 )
+  (    2 GND )
+ )
+ ( /4EDB74D2 SO8E  U1 SI8421 {Lib=SI8421}
+  (    1 +5V )
+  (    2 /TX )
+  (    3 /RX )
+  (    4 GND )
+  (    5 GND2 )
+  (    6 /TX_2 )
+  (    7 /RX_2 )
+  (    8 VDD2 )
+ )
+ ( /4EDB6F17 SM0805  C2 0.47u {Lib=C}
+  (    1 N-000017 )
+  (    2 GND )
+ )
+ ( /4EDB6F0A SM0805  R5 1k {Lib=R}
+  (    1 +5V )
+  (    2 N-000023 )
+ )
+ ( /4EDB6D96 SM0805  C3 18p {Lib=C}
+  (    1 N-000020 )
+  (    2 GND )
+ )
+ ( /4EDB6D92 SM0805  C4 18p {Lib=C}
+  (    1 N-000024 )
+  (    2 GND )
+ )
+ ( /4EDB6D78 HC-49V  X1 12MHz {Lib=CRYSTAL}
+  (    1 N-000024 )
+  (    2 N-000020 )
+ )
+ ( /4EDB6C38 SM0805  C1 10u {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4EDB6990 USB_B  P2 USB {Lib=CONN_4}
+  (    1 +5V )
+  (    2 /D- )
+  (    3 /D+ )
+  (    4 GND )
+ )
+ ( /4EDB697D SOIC20  U2 MCP2200 {Lib=MCP2200}
+  (    1 +5V )
+  (    2 N-000024 )
+  (    3 N-000020 )
+  (    4 N-000023 )
+  (    5 /GP7 )
+  (    6 /GP6 )
+  (    7 /GP5 )
+  (    8 /GP4 )
+  (    9 /GP3 )
+  (   10 /TX )
+  (   11 ? )
+  (   12 /RX )
+  (   13 GND )
+  (   14 /GP2 )
+  (   15 /GP1 )
+  (   16 /GP0 )
+  (   17 N-000017 )
+  (   18 /D- )
+  (   19 /D+ )
+  (   20 GND )
+ )
+ ( /4EDB6678 PIN_ARRAY_4x1  P1 SERIAL {Lib=CONN_4}
+  (    1 GND2 )
+  (    2 /RX_2 )
+  (    3 /TX_2 )
+  (    4 VDD2 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ D1 1
+ R1 1
+Net 2 "GND2" "GND2"
+ P1 1
+ U1 5
+Net 3 "/TX" "TX"
+ U1 2
+ U2 10
+Net 4 "GND" "GND"
+ C1 2
+ P2 4
+ C4 2
+ C3 2
+ U2 20
+ U2 13
+ C2 2
+ P3 10
+ D1 2
+ U1 4
+Net 5 "/RX_2" "RX_2"
+ P1 2
+ U1 7
+Net 6 "VDD2" "VDD2"
+ P1 4
+ U1 8
+Net 7 "/RX" "RX"
+ U2 12
+ U1 3
+Net 9 "/GP0" "GP0"
+ U2 16
+ P3 9
+Net 10 "/GP3" "GP3"
+ P3 2
+ U2 9
+Net 11 "/GP4" "GP4"
+ P3 3
+ U2 8
+Net 12 "/GP5" "GP5"
+ U2 7
+ P3 4
+Net 13 "/GP7" "GP7"
+ U2 5
+ P3 6
+ D4 2
+Net 14 "/GP2" "GP2"
+ P3 7
+ U2 14
+Net 15 "/GP1" "GP1"
+ U2 15
+ P3 8
+ D2 2
+Net 16 "/GP6" "GP6"
+ U2 6
+ P3 5
+ D3 2
+Net 17 "" ""
+ U2 17
+ C2 1
+Net 18 "/D-" "D-"
+ P2 2
+ U2 18
+Net 19 "/TX_2" "TX_2"
+ P1 3
+ U1 6
+Net 20 "" ""
+ C3 1
+ X1 2
+ U2 3
+Net 21 "/D+" "D+"
+ P2 3
+ U2 19
+Net 22 "+5V" "+5V"
+ P2 1
+ R3 2
+ R4 2
+ R2 2
+ C1 1
+ R5 1
+ U1 1
+ U2 1
+ R1 2
+ P3 1
+Net 23 "" ""
+ R5 2
+ U2 4
+Net 24 "" ""
+ X1 1
+ C4 1
+ U2 2
+Net 29 "" ""
+ D3 1
+ R3 1
+Net 30 "" ""
+ R4 1
+ D4 1
+Net 31 "" ""
+ R2 1
+ D2 1
+}
+#End
