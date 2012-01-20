@@ -24,7 +24,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=guruplug-serial.net
+LastNetListRead=usb-uart-isol.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
