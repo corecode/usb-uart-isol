@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Dec 2011 04:29:53 PM CET
+EESchema Schematic File Version 2  date Fri 20 Jan 2012 08:04:23 AM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:MCP2200
 LIBS:si8421
-EELAYER 43  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
