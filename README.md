@@ -4,6 +4,10 @@ USB UART, isolated
 MCP2200 USB-to-UART based board, with a Silicon Labs digital isolator
 to avoid ground loops (due to bad UART side PSUs, mostly).
 
+The schematic design and layout was done using KiCad <http://kicad.sourceforge.net>,
+a Free Software EDA tool for Linux, Windows and Mac OS.  You will need
+KiCad to open the .sch or .brd files - gEDA or Eagle will not work.
+
 
 Copyright
 ---------
